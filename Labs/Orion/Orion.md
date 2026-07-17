@@ -62,7 +62,7 @@ ffuf -w ~/Desktop/Lists/SecLists/Discovery/Web-Content/DirBuster-2007_directory-
 admin    [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 188ms]
 ```
 
-![Craft CMS admin login page](orion-1-craftcms-login-page.png)
+![Craft CMS admin login page](Image/orion-1-craftcms-login-page.png)
 
 Identified: **Craft CMS 5.6.16**
 
