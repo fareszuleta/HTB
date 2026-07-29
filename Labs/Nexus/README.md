@@ -1,7 +1,7 @@
 # Nexus — HTB Machine
 
 ![Platform](https://img.shields.io/badge/Platform-Hack%20The%20Box-9FEF00)
-![Difficulty](https://img.shields.io/badge/Difficulty-Green-Easy)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy)
 ![Type](https://img.shields.io/badge/Type-Linux-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
