@@ -55,12 +55,12 @@ git        [Status: 200]
 
 ## 2. Subdomain Recon
 
-![Krayin billing login page](nexus-1-krayin-billing-login.png)
-![Gitea landing page](nexus-2-gitea-landing-page.png)
+![Krayin billing login page](images/nexus-1-krayin-billing-login.png)
+![Gitea landing page](images/nexus-2-gitea-landing-page.png)
 
 Careers page on the root site leaks an email:
 
-![Careers page leaking hiring manager email](nexus-3-careers-page-email-disclosure.png)
+![Careers page leaking hiring manager email](images/nexus-3-careers-page-email-disclosure.png)
 
 ```text
 j.matthew@nexus.htb
@@ -72,13 +72,13 @@ j.matthew@nexus.htb
 
 A public Krayin repo's commit history reveals a removed `.env` password still visible in the diff:
 
-![Gitea commit leaking the database password](nexus-4-gitea-commit-password-leak.png)
+![Gitea commit leaking the database password](images/nexus-4-gitea-commit-password-leak.png)
 
 ```text
 j.matthew@nexus.htb : N27xh!!2ucY04
 ```
 
-![Krayin dashboard access after login](nexus-5-krayin-dashboard-access.png)
+![Krayin dashboard access after login](images/nexus-5-krayin-dashboard-access.png)
 
 ---
 
@@ -101,7 +101,7 @@ nc -lvnp 4343
 
 Delivered through Krayin's Compose Mail image upload:
 
-![Compose Mail dialog used to trigger the upload](nexus-6-compose-mail-upload.png)
+![Compose Mail dialog used to trigger the upload](images/nexus-6-compose-mail-upload.png)
 
 Intercepted in Burp Suite and modified:
 
@@ -165,7 +165,7 @@ target = os.path.join(stage_path, filepath)   # unsanitized, traversal possible
 
 **Create a Gitea template repo:**
 
-![Creating a Gitea template repository named ROOT](nexus-7-gitea-template-repo-creation.png)
+![Creating a Gitea template repository named ROOT](images/nexus-7-gitea-template-repo-creation.png)
 
 ```bash
 cd /tmp
