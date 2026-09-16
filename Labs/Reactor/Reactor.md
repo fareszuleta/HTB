@@ -50,7 +50,7 @@ Headers confirm a Next.js app (`X-Powered-By: Next.js`).
 
 No directories found via fuzzing. Installing **Wappalyzer** and reloading the page reveals the framework version directly:
 
-![Wappalyzer identifying Next.js 15.0.3](reactor-1-wappalyzer-nextjs.png)
+![Wappalyzer identifying Next.js 15.0.3](images/reactor-1-wappalyzer-nextjs.png)
 
 Confirmed: **Next.js 15.0.3**
 
