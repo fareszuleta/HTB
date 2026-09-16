@@ -48,7 +48,7 @@ Apache 2.4.6 (CentOS), PHP 7.4.16, SSL cert `commonName=pbxconnect`.
 
 ## 2. Fingerprinting
 
-![FreePBX administration panel](connected-1-freepbx-admin-panel.png)
+![FreePBX administration panel](images/connected-1-freepbx-admin-panel.png)
 
 Footer discloses: **FreePBX 16.0.40.7**
 
